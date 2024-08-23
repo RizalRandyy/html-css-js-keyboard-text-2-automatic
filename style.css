@@ -1,0 +1,163 @@
+:root {
+  --green: #A2CCB6;
+  --yellow: #FCEEB5;
+  --peach: #f74505;
+  --off-white: #373d3b;
+  --cream: #d9d3bb
+}
+
+body {
+  background-color: #323437;
+  margin-top: 50px;
+}
+
+/* Container */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.container-text {
+  /* background-color: white; */
+  width: 885px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-top: 50px;
+  height: 150px;
+  text-align: center;
+
+  /* font */
+  color: #F1F1F1;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.container-keyboard {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Keyboard */
+span {
+  display: block;
+  margin-top: -5px;
+}
+
+.keyboard {
+  width: 780px;
+  height: 262px;
+  margin: 0px auto;
+  border: 3px solid #000000;
+  border-radius: 10px;
+  background: #070705;
+}
+
+.row {
+  margin-top: 2px;
+  overflow: hidden;
+}
+
+.key {
+  width: 50px;
+  height: 50px;
+  float: left;
+  cursor: pointer;
+  background-color: var(--cream);
+  color: var(--off-white);
+  line-height: 48px;
+  text-align: center;
+  margin-left: 2px;
+  border-radius: 4px;
+}
+
+.key__symbols {
+  line-height: 28px;
+  background-color: var(--cream);
+  color: var(--off-white);
+}
+
+.key__delete {
+  background-color: var(--peach);
+  width: 100px;
+}
+
+.key__oneandhalf {
+  background-color: var(--off-white);
+  color: var(--cream);
+  width: 75px;
+}
+
+.key__esc {
+  background: var(--peach);
+}
+
+.key__enter {
+  background-color: var(--off-white);
+  color: var(--cream);
+  width: 112px;
+}
+
+.key__caps {
+  background-color: var(--off-white);
+  color: var(--cream);
+  width: 90px;
+}
+
+.key__shift-left {
+  background-color: var(--off-white);
+  color: var(--cream);
+  width: 100px;
+}
+
+.key__bottom-funct {
+  background-color: var(--off-white);
+  color: var(--cream);
+  width: 70px;
+}
+
+.key__spacebar {
+  background: var(--peach);
+  width: 300px;
+}
+
+.key_fn {
+  background-color: var(--off-white);
+  color: var(--cream);
+}
+
+.key_ctrl_left {
+  background-color: var(--off-white);
+  color: var(--cream);
+}
+
+.key__arrow {
+  background: var(--peach);
+}
+
+.key_shift_right {
+  background-color: var(--off-white);
+  color: var(--cream);
+}
+
+.key_trash_right {
+  background-color: var(--off-white);
+  color: var(--cream);
+}
+
+.feather {
+  margin-top: 10px;
+}
+
+.key--active {
+  background-color: var(--green);
+  color: white;
+}
